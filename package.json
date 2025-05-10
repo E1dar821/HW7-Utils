@@ -1,0 +1,14 @@
+{
+    "name": "string-utilities",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "scripts": {
+      "build": "tsc",
+      "dev": "node dist/index.js",
+      "start": "npm run build && npm run dev"
+    },
+    "devDependencies": {
+      "typescript": "^5.1.0"
+    }
+  }
+  
